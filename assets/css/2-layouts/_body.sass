@@ -1,0 +1,193 @@
+.wrapper
+    +outer-container
+    margin: 15px auto
+    padding: 15px
+
+    .body
+        background: white
+        padding: 30px
+
+    #head
+        background-image: url('/assets/img/runner.jpg')
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center center
+        height: 400px
+        padding: 45px
+
+        .title
+            text-align: center
+            margin: 8% 0
+
+            h1
+                color: #fff
+
+                +mobile
+                    margin: 0 0 15px 0
+
+        .sub-title
+            text-align: center
+            font-family: $body
+            font-size: 18px
+            color: #fff
+
+    #intro
+        padding: 45px
+        +clearfix
+
+        .intro-lead
+            +span-columns(5)
+            +shift(1)
+            font-family: $body
+            color: $brand-dark
+            font-size: 1.75rem
+            font-weight: 800
+            text-align: right
+            text-transform: uppercase
+
+            +mobile
+                +span-columns(12)
+                +shift(0)
+                text-align: center
+                font-size: 1.25rem
+                margin-bottom: 15px
+
+        .intro-list
+            +span-columns(5)
+            font-family: $body
+            color: $brand-dark
+            font-size: 1.25rem
+
+            ol
+                margin: 5px 0
+
+            +mobile
+                +span-columns(12)
+                +shift(0)
+                font-size: 1.25rem
+
+    #location
+        background-color: #9b4fc4
+        background-image: url('/assets/img/pattern.png')
+        background-repeat: repeat
+        padding: 45px
+        text-align: center
+
+        p
+            color: #fff
+            font-weight: 800
+            margin-bottom: 0
+
+        span
+            font-weight: 400
+
+        h1
+            color: #fff
+            text-align: center
+            margin-top: 0
+
+            +mobile
+                font-size: 2.5rem
+
+    #map_canvas
+        height: 400px
+        width: 100%
+        +clearfix
+
+    #map_canvas img
+        max-width: none
+        // to prevent UI control bug
+
+    #map_canvas .content
+        padding: 0 0.5em 1em 0.5em
+
+    #map_canvas .firstHeading
+        font-size: 1em
+        font-weight: bold
+        line-height: 1em
+        margin: 0
+
+    #map_canvas #bodyContent p
+        font-size: 1em
+        margin: 0
+
+    #coaches
+        padding: 45px
+        +clearfix
+        text-align: center
+
+        h1
+            text-align: center
+            color: $brand-dark
+            margin-top: 0
+
+            +mobile
+                font-size: 3.5rem
+
+        .grid-item
+            +span-columns(6)
+
+
+            +mobile
+                +span-columns(12)
+
+        img
+            height: 150px
+            width: 150px
+            border-radius: 50%
+
+        h2
+            color: $brand-dark
+
+    #places
+        padding: 45px
+        background-color: $brand-dark
+        background-image: url('/assets/img/pattern.png')
+        background-repeat: repeat
+        text-align: center
+
+        p
+            color: #fff
+
+            &:last-child
+                margin-bottom: 0
+
+        h1
+            color: #fff
+            margin-top: 0
+
+    #footer
+        padding: 45px
+        background-color: #222222
+        background-image: url('/assets/img/pattern.png')
+        background-repeat: repeat
+        text-align: center
+        +clearfix
+
+        h3
+            color: #eee
+            margin-top: 0
+
+        .runology
+            +span-columns(6)
+            +hide-text
+            background: center no-repeat
+            height: 75px
+            background-image: url('/assets/img/runology.svg')
+            background-size: 498px 75px
+            margin-bottom: 30px
+
+            +mobile
+                +span-columns(12)
+
+
+        .rackham
+            +span-columns(6)
+            +hide-text
+            background: center no-repeat
+            height: 75px
+            background-image: url('/assets/img/rackhameffect.svg')
+            background-size: 498px 75px
+
+            +mobile
+                +span-columns(12)
