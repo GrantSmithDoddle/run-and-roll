@@ -10,7 +10,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   background-color: #009FE3;
-  background-image: url("{{ site.baseurl }}/assets/img/pattern.png");
+  background-image: url("{{ site.data.baseurl }}/assets/img/pattern.png");
   background-repeat: repeat;
   color: #00587d; }
 
@@ -330,7 +330,7 @@ hr {
     background: white;
     padding: 30px; }
   .wrapper #head {
-    background-image: url("{{ site.baseurl }}/assets/img/runner.jpg");
+    background-image: url("{{ site.data.baseurl }}/assets/img/runner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -405,7 +405,7 @@ hr {
             margin-right: 0; } }
   .wrapper #location {
     background-color: #9b4fc4;
-    background-image: url("{{ site.baseurl }}/assets/img/pattern.png");
+    background-image: url("{{ site.data.baseurl }}/assets/img/pattern.png");
     background-repeat: repeat;
     padding: 45px;
     text-align: center; }
@@ -479,7 +479,7 @@ hr {
   .wrapper #places {
     padding: 45px;
     background-color: #00587d;
-    background-image: url("{{ site.baseurl }}/assets/img/pattern.png");
+    background-image: url("{{ site.data.baseurl }}/assets/img/pattern.png");
     background-repeat: repeat;
     text-align: center; }
     .wrapper #places p {
@@ -492,7 +492,7 @@ hr {
   .wrapper #footer {
     padding: 45px;
     background-color: #222222;
-    background-image: url("{{ site.baseurl }}/assets/img/pattern.png");
+    background-image: url("{{ site.data.baseurl }}/assets/img/pattern.png");
     background-repeat: repeat;
     text-align: center; }
     .wrapper #footer::after {
@@ -512,7 +512,7 @@ hr {
       white-space: nowrap;
       background: center no-repeat;
       height: 75px;
-      background-image: url("{{ site.baseurl }}/assets/img/runology.svg");
+      background-image: url("{{ site.data.baseurl }}/assets/img/runology.svg");
       background-size: 498px 75px;
       margin-bottom: 30px; }
       .wrapper #footer .runology:last-child {
@@ -535,7 +535,7 @@ hr {
       white-space: nowrap;
       background: center no-repeat;
       height: 75px;
-      background-image: url("{{ site.baseurl }}/assets/img/rackhameffect.svg");
+      background-image: url("{{ site.data.baseurl }}/assets/img/rackhameffect.svg");
       background-size: 498px 75px; }
       .wrapper #footer .rackham:last-child {
         margin-right: 0; }
