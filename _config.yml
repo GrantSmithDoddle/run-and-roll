@@ -1,3 +1,5 @@
+baseurl: /run-and-roll
+
 #Build Settings
 
 markdown: kramdown
@@ -8,5 +10,3 @@ port: 3000
 sass:
     sass_dir: assets/css
     style: :compressed
-
-baseurl: /run-and-roll
