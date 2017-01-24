@@ -431,6 +431,11 @@ hr {
       color: #fff;
       font-weight: 800;
       margin-bottom: 0; }
+      .wrapper #location p a {
+        color: #fff;
+        text-decoration: none; }
+      .wrapper #location p:hover {
+        text-decoration: underline; }
     .wrapper #location span {
       font-weight: 400; }
     .wrapper #location h1 {
