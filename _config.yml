@@ -1,3 +1,8 @@
+title: Run and Roll
+description: Injury free running
+email: jane@therackhameffect.com
+baseurl: /run-and-roll
+
 #Build Settings
 
 markdown: kramdown
@@ -8,3 +13,10 @@ port: 3000
 sass:
     sass_dir: assets/css
     style: :compressed
+
+#SEO Settings
+
+seo:
+  description: 'Run and Roll, injury free running.'
+  rel-author: 'https://plus.google.com/+Runology'
+  rel-publisher: 'https://plus.google.com/+Runology'
