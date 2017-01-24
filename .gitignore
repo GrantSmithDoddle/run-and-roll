@@ -1,6 +1,6 @@
 # Created by https://www.gitignore.io/api/macos,jekyll,sass,wordpress
 
-Image-Originals/
+_image-originals/
 
 ### macOS ###
 *.DS_Store
