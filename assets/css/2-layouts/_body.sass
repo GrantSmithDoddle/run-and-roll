@@ -15,6 +15,9 @@
         height: 400px
         padding: 45px
 
+        +mobile
+            padding: 45px 15px
+
         .title
             text-align: center
             margin: 8% 0
@@ -23,6 +26,7 @@
                 color: #fff
 
                 +mobile
+                    font-size: 30px
                     margin: 0 0 15px 0
 
         .sub-title
@@ -35,10 +39,16 @@
         padding: 45px
         +clearfix
 
+        +mobile
+            padding: 45px 15px
+
         h2
             color: $brand-dark
             text-align: center
             margin-top: 0
+
+            +mobile
+                font-size: 25px
 
         .intro-lead
             +span-columns(5)
@@ -78,6 +88,9 @@
         padding: 45px
         text-align: center
 
+        +mobile
+            padding: 45px 15px
+
         h5
             color: #fff
             font-family: $body
@@ -98,7 +111,7 @@
             margin-top: 0
 
             +mobile
-                font-size: 2.5rem
+                font-size: 30px
 
     #map_canvas
         height: 400px
@@ -112,13 +125,16 @@
         +clearfix
         text-align: center
 
+        +mobile
+            padding: 45px 15px
+
         h1
             text-align: center
             color: $brand-dark
             margin-top: 0
 
             +mobile
-                font-size: 3.5rem
+                font-size: 30px
 
         .grid-item
             +span-columns(6)
@@ -135,6 +151,9 @@
         h2
             color: $brand-dark
 
+            +mobile
+                font-size: 20px
+
     #places
         padding: 45px
         background-color: $brand-dark
@@ -142,6 +161,9 @@
         background-repeat: repeat
         text-align: center
         +clearfix
+
+        +mobile
+            padding: 45px 15px
 
         .col-width
             +span-columns(8)
@@ -154,6 +176,9 @@
         h2
             color: #fff
             margin: 0 0 20px 0
+
+            +mobile
+                font-size: 20px
 
         p
             color: #fff
@@ -173,23 +198,40 @@
         text-align: center
         +clearfix
 
+        +mobile
+            padding: 45px 15px
+
         h2
             color: #eee
             margin-top: 0
 
+            +mobile
+                font-size: 20px
+
         .runology
             +span-columns(6)
 
+            img
+                height: 75px
+
             +mobile
                 +span-columns(12)
-                margin-bottom: 30px
+                margin-bottom: 20px
 
+                img
+                    height: 50px
 
         .rackham
             +span-columns(6)
 
+            img
+                height: 75px
+
             +mobile
                 +span-columns(12)
+
+                img
+                    height: 50px
 
     #trans
         display: block

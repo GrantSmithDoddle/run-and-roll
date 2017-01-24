@@ -329,6 +329,9 @@ hr {
     background-position: center center;
     height: 400px;
     padding: 45px; }
+    @media screen and (max-width: 767px) {
+      .wrapper #head {
+        padding: 45px 15px; } }
     .wrapper #head .title {
       text-align: center;
       margin: 8% 0; }
@@ -336,6 +339,7 @@ hr {
         color: #fff; }
         @media screen and (max-width: 767px) {
           .wrapper #head .title h1 {
+            font-size: 30px;
             margin: 0 0 15px 0; } }
     .wrapper #head .sub-title {
       text-align: center;
@@ -348,10 +352,16 @@ hr {
       clear: both;
       content: "";
       display: block; }
+    @media screen and (max-width: 767px) {
+      .wrapper #intro {
+        padding: 45px 15px; } }
     .wrapper #intro h2 {
       color: #00587d;
       text-align: center;
       margin-top: 0; }
+      @media screen and (max-width: 767px) {
+        .wrapper #intro h2 {
+          font-size: 25px; } }
     .wrapper #intro .intro-lead {
       float: left;
       display: block;
@@ -406,6 +416,9 @@ hr {
     background-repeat: repeat;
     padding: 45px;
     text-align: center; }
+    @media screen and (max-width: 767px) {
+      .wrapper #location {
+        padding: 45px 15px; } }
     .wrapper #location h5 {
       color: #fff;
       font-family: "Open Sans", sans-serif;
@@ -423,7 +436,7 @@ hr {
       margin-top: 0; }
       @media screen and (max-width: 767px) {
         .wrapper #location h1 {
-          font-size: 2.5rem; } }
+          font-size: 30px; } }
   .wrapper #map_canvas {
     height: 400px;
     width: 100%;
@@ -440,13 +453,16 @@ hr {
       clear: both;
       content: "";
       display: block; }
+    @media screen and (max-width: 767px) {
+      .wrapper #coaches {
+        padding: 45px 15px; } }
     .wrapper #coaches h1 {
       text-align: center;
       color: #00587d;
       margin-top: 0; }
       @media screen and (max-width: 767px) {
         .wrapper #coaches h1 {
-          font-size: 3.5rem; } }
+          font-size: 30px; } }
     .wrapper #coaches .grid-item {
       float: left;
       display: block;
@@ -468,6 +484,9 @@ hr {
       border-radius: 50%; }
     .wrapper #coaches h2 {
       color: #00587d; }
+      @media screen and (max-width: 767px) {
+        .wrapper #coaches h2 {
+          font-size: 20px; } }
   .wrapper #places {
     padding: 45px;
     background-color: #00587d;
@@ -478,6 +497,9 @@ hr {
       clear: both;
       content: "";
       display: block; }
+    @media screen and (max-width: 767px) {
+      .wrapper #places {
+        padding: 45px 15px; } }
     .wrapper #places .col-width {
       float: left;
       display: block;
@@ -498,6 +520,9 @@ hr {
     .wrapper #places h2 {
       color: #fff;
       margin: 0 0 20px 0; }
+      @media screen and (max-width: 767px) {
+        .wrapper #places h2 {
+          font-size: 20px; } }
     .wrapper #places p {
       color: #fff; }
       .wrapper #places p:last-child {
@@ -515,9 +540,15 @@ hr {
       clear: both;
       content: "";
       display: block; }
+    @media screen and (max-width: 767px) {
+      .wrapper #footer {
+        padding: 45px 15px; } }
     .wrapper #footer h2 {
       color: #eee;
       margin-top: 0; }
+      @media screen and (max-width: 767px) {
+        .wrapper #footer h2 {
+          font-size: 20px; } }
     .wrapper #footer .runology {
       float: left;
       display: block;
@@ -525,15 +556,19 @@ hr {
       width: 48.82117%; }
       .wrapper #footer .runology:last-child {
         margin-right: 0; }
+      .wrapper #footer .runology img {
+        height: 75px; }
       @media screen and (max-width: 767px) {
         .wrapper #footer .runology {
           float: left;
           display: block;
           margin-right: 2.35765%;
           width: 100%;
-          margin-bottom: 30px; }
+          margin-bottom: 20px; }
           .wrapper #footer .runology:last-child {
-            margin-right: 0; } }
+            margin-right: 0; }
+          .wrapper #footer .runology img {
+            height: 50px; } }
     .wrapper #footer .rackham {
       float: left;
       display: block;
@@ -541,6 +576,8 @@ hr {
       width: 48.82117%; }
       .wrapper #footer .rackham:last-child {
         margin-right: 0; }
+      .wrapper #footer .rackham img {
+        height: 75px; }
       @media screen and (max-width: 767px) {
         .wrapper #footer .rackham {
           float: left;
@@ -548,7 +585,9 @@ hr {
           margin-right: 2.35765%;
           width: 100%; }
           .wrapper #footer .rackham:last-child {
-            margin-right: 0; } }
+            margin-right: 0; }
+          .wrapper #footer .rackham img {
+            height: 50px; } }
   .wrapper #trans {
     display: block;
     color: #cccccc; }
