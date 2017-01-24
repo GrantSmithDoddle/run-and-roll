@@ -424,6 +424,9 @@ hr {
       font-family: "Open Sans", sans-serif;
       text-transform: uppercase;
       margin: 0 0 20px 0; }
+      @media screen and (max-width: 767px) {
+        .wrapper #location h5 {
+          font-size: 18px; } }
     .wrapper #location p {
       color: #fff;
       font-weight: 800;
@@ -486,7 +489,7 @@ hr {
       color: #00587d; }
       @media screen and (max-width: 767px) {
         .wrapper #coaches h2 {
-          font-size: 20px; } }
+          font-size: 25px; } }
   .wrapper #places {
     padding: 45px;
     background-color: #00587d;
@@ -522,7 +525,7 @@ hr {
       margin: 0 0 20px 0; }
       @media screen and (max-width: 767px) {
         .wrapper #places h2 {
-          font-size: 20px; } }
+          font-size: 25px; } }
     .wrapper #places p {
       color: #fff; }
       .wrapper #places p:last-child {
@@ -530,6 +533,9 @@ hr {
     .wrapper #places h1 {
       color: #fff;
       margin-top: 0; }
+      @media screen and (max-width: 767px) {
+        .wrapper #places h1 {
+          font-size: 30px; } }
   .wrapper #footer {
     padding: 45px;
     background-color: #222222;
@@ -548,7 +554,7 @@ hr {
       margin-top: 0; }
       @media screen and (max-width: 767px) {
         .wrapper #footer h2 {
-          font-size: 20px; } }
+          font-size: 25px; } }
     .wrapper #footer .runology {
       float: left;
       display: block;
