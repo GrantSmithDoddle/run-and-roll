@@ -35,6 +35,11 @@
         padding: 45px
         +clearfix
 
+        h2
+            color: $brand-dark
+            text-align: center
+            margin-top: 0
+
         .intro-lead
             +span-columns(5)
             +shift(1)
@@ -72,6 +77,12 @@
         background-repeat: repeat
         padding: 45px
         text-align: center
+
+        h5
+            color: #fff
+            font-family: $body
+            text-transform: uppercase
+            margin: 0 0 20px 0
 
         p
             color: #fff
@@ -130,6 +141,19 @@
         background-image: url('../img/pattern.png')
         background-repeat: repeat
         text-align: center
+        +clearfix
+
+        .col-width
+            +span-columns(8)
+            +shift(2)
+
+            +mobile
+                +span-columns(12)
+                +shift(0)
+
+        h2
+            color: #fff
+            margin: 0 0 20px 0
 
         p
             color: #fff
@@ -141,10 +165,6 @@
             color: #fff
             margin-top: 0
 
-        h4
-            color: #fff
-            margin-bottom: 0
-
     #footer
         padding: 45px
         background-color: #222222
@@ -153,7 +173,7 @@
         text-align: center
         +clearfix
 
-        h3
+        h2
             color: #eee
             margin-top: 0
 
@@ -170,3 +190,18 @@
 
             +mobile
                 +span-columns(12)
+
+    #trans
+        display: block
+        color: darken(#ffffff, 20%)
+
+        p
+            color: $brand-primary
+            margin: 20px 0 0 0
+
+        a
+            color: $brand-primary
+            text-decoration: none
+
+            &:hover
+                color: $brand-dark

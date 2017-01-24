@@ -348,6 +348,10 @@ hr {
       clear: both;
       content: "";
       display: block; }
+    .wrapper #intro h2 {
+      color: #00587d;
+      text-align: center;
+      margin-top: 0; }
     .wrapper #intro .intro-lead {
       float: left;
       display: block;
@@ -402,6 +406,11 @@ hr {
     background-repeat: repeat;
     padding: 45px;
     text-align: center; }
+    .wrapper #location h5 {
+      color: #fff;
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase;
+      margin: 0 0 20px 0; }
     .wrapper #location p {
       color: #fff;
       font-weight: 800;
@@ -465,6 +474,30 @@ hr {
     background-image: url("../img/pattern.png");
     background-repeat: repeat;
     text-align: center; }
+    .wrapper #places::after {
+      clear: both;
+      content: "";
+      display: block; }
+    .wrapper #places .col-width {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin-left: 17.05961%; }
+      .wrapper #places .col-width:last-child {
+        margin-right: 0; }
+      @media screen and (max-width: 767px) {
+        .wrapper #places .col-width {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          margin-left: 0%; }
+          .wrapper #places .col-width:last-child {
+            margin-right: 0; } }
+    .wrapper #places h2 {
+      color: #fff;
+      margin: 0 0 20px 0; }
     .wrapper #places p {
       color: #fff; }
       .wrapper #places p:last-child {
@@ -472,9 +505,6 @@ hr {
     .wrapper #places h1 {
       color: #fff;
       margin-top: 0; }
-    .wrapper #places h4 {
-      color: #fff;
-      margin-bottom: 0; }
   .wrapper #footer {
     padding: 45px;
     background-color: #222222;
@@ -485,7 +515,7 @@ hr {
       clear: both;
       content: "";
       display: block; }
-    .wrapper #footer h3 {
+    .wrapper #footer h2 {
       color: #eee;
       margin-top: 0; }
     .wrapper #footer .runology {
@@ -519,3 +549,14 @@ hr {
           width: 100%; }
           .wrapper #footer .rackham:last-child {
             margin-right: 0; } }
+  .wrapper #trans {
+    display: block;
+    color: #cccccc; }
+    .wrapper #trans p {
+      color: #009FE3;
+      margin: 20px 0 0 0; }
+    .wrapper #trans a {
+      color: #009FE3;
+      text-decoration: none; }
+      .wrapper #trans a:hover {
+        color: #00587d; }
