@@ -10,7 +10,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   background-color: #009FE3;
-  background-image: url("../assets/img/pattern.png");
+  background-image: url("../img/pattern.png");
   background-repeat: repeat;
   color: #00587d; }
 
@@ -323,7 +323,7 @@ hr {
     background: white;
     padding: 30px; }
   .wrapper #head {
-    background-image: url("../assets/img/runner.jpg");
+    background-image: url("../img/runner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -398,7 +398,7 @@ hr {
             margin-right: 0; } }
   .wrapper #location {
     background-color: #9b4fc4;
-    background-image: url("../assets/img/pattern.png");
+    background-image: url("../img/pattern.png");
     background-repeat: repeat;
     padding: 45px;
     text-align: center; }
@@ -418,7 +418,7 @@ hr {
   .wrapper #map_canvas {
     height: 400px;
     width: 100%;
-    background-image: url("../assets/img/google-map.jpg");
+    background-image: url("../img/google-map.jpg");
     background-position: center center; }
     .wrapper #map_canvas::after {
       clear: both;
@@ -462,7 +462,7 @@ hr {
   .wrapper #places {
     padding: 45px;
     background-color: #00587d;
-    background-image: url("../assets/img/pattern.png");
+    background-image: url("../img/pattern.png");
     background-repeat: repeat;
     text-align: center; }
     .wrapper #places p {
@@ -478,7 +478,7 @@ hr {
   .wrapper #footer {
     padding: 45px;
     background-color: #222222;
-    background-image: url("../assets/img/pattern.png");
+    background-image: url("../img/pattern.png");
     background-repeat: repeat;
     text-align: center; }
     .wrapper #footer::after {
