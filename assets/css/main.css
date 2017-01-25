@@ -446,14 +446,20 @@ hr {
         .wrapper #location h1 {
           font-size: 30px; } }
   .wrapper #map_canvas {
-    height: 400px;
-    width: 100%;
-    background-image: url("../img/google-map.jpg");
-    background-position: center center; }
-    .wrapper #map_canvas::after {
-      clear: both;
-      content: "";
-      display: block; }
+    height: 300px;
+    width: 100%; }
+  .wrapper #map_canvas img {
+    max-width: none; }
+  .wrapper #map_canvas .content {
+    padding: 0 0.5em 1em 0.5em; }
+  .wrapper #map_canvas .firstHeading {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 0; }
+  .wrapper #map_canvas #bodyContent p {
+    font-size: 1em;
+    margin: 0; }
   .wrapper #coaches {
     padding: 45px;
     text-align: center; }
