@@ -52,7 +52,19 @@
                 <p>Places are limited to <strong>18</strong> to ensure you get a chance to talk to the experts.  However we can take more names for future sessions. The cost is</p>
                 <h1>£30</h1>
                 <p>Please bring your own mats and foam rollers if you have them.  Don’t worry if you don’t as we have spares!  This will be a practical session with a chance for a cuppa and Q&A afterwards.</p>
-                <p><strong>Details of how to book are coming soon…</strong></p>
+                <form action="/your-server-side-code" method="POST">
+                  <script
+                    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    data-key="pk_test_jZN1g1CqcXibfekhIdJInRHr"
+                    data-amount="3000"
+                    data-name="Run and Roll"
+                    data-description="Workshop"
+                    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                    data-locale="auto"
+                    data-zip-code="true"
+                    data-currency="gbp">
+                  </script>
+                </form>
             </div>
         </section>
 
