@@ -549,6 +549,10 @@ hr {
           font-size: 30px; } }
     .wrapper #places p.terms {
       margin: 20px 0 10px 0; }
+      .wrapper #places p.terms a {
+        color: #fff; }
+      .wrapper #places p.terms:hover {
+        color: white; }
   .wrapper #footer {
     padding: 45px;
     background-color: #222222;
