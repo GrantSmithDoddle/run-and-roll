@@ -547,6 +547,8 @@ hr {
       @media screen and (max-width: 767px) {
         .wrapper #places h1 {
           font-size: 30px; } }
+    .wrapper #places p.terms {
+      margin: 20px 0 10px 0; }
   .wrapper #footer {
     padding: 45px;
     background-color: #222222;
