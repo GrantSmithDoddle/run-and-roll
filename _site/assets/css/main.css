@@ -604,18 +604,27 @@ hr {
       display: block;
       margin-right: 2.35765%;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> gh-pages
       width: 48.82117%;
       overflow: hidden;
       text-indent: 101%;
       white-space: nowrap;
       background: center no-repeat;
       height: 75px;
+<<<<<<< HEAD
       background-image: url("/run-and-roll/assets/img/runology.svg");
       background-size: 498px 75px;
       margin-bottom: 30px; }
 =======
       width: 48.82117%; }
 >>>>>>> master
+=======
+      background-image: url("../img/runology.svg");
+      background-size: 498px 75px;
+      margin-bottom: 30px; }
+>>>>>>> gh-pages
       .wrapper #footer .runology:last-child {
         margin-right: 0; }
       .wrapper #footer .runology img {
@@ -636,17 +645,25 @@ hr {
       display: block;
       margin-right: 2.35765%;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> gh-pages
       width: 48.82117%;
       overflow: hidden;
       text-indent: 101%;
       white-space: nowrap;
       background: center no-repeat;
       height: 75px;
+<<<<<<< HEAD
       background-image: url("/run-and-roll/assets/img/rackhameffect.svg");
       background-size: 498px 75px; }
 =======
       width: 48.82117%; }
 >>>>>>> master
+=======
+      background-image: url("../img/rackhameffect.svg");
+      background-size: 498px 75px; }
+>>>>>>> gh-pages
       .wrapper #footer .rackham:last-child {
         margin-right: 0; }
       .wrapper #footer .rackham img {
