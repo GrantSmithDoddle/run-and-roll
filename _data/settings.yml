@@ -1,0 +1,34 @@
+#-------------------------------
+# General Site Settings
+
+title: Run and Roll
+description: Injury free running
+email: jane@therackhameffect.com
+baseurl: /run-and-roll
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Run and Roll, injury free running.'
+  rel-author: 'https://plus.google.com/+Runology'
+  rel-publisher: 'https://plus.google.com/+Runology'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
