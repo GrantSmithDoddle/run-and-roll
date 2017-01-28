@@ -8,12 +8,19 @@
         padding: 30px
 
     #head
+<<<<<<< HEAD
         background-image: url('/run-and-roll/assets/img/runner.jpg')
+=======
+        background-image: url('../img/runner.jpg')
+>>>>>>> master
         background-repeat: no-repeat
         background-size: cover
         background-position: center center
         height: 400px
         padding: 45px
+
+        +mobile
+            padding: 45px 15px
 
         .title
             text-align: center
@@ -23,6 +30,7 @@
                 color: #fff
 
                 +mobile
+                    font-size: 30px
                     margin: 0 0 15px 0
 
         .sub-title
@@ -34,6 +42,17 @@
     #intro
         padding: 45px
         +clearfix
+
+        +mobile
+            padding: 45px 15px
+
+        h2
+            color: $brand-dark
+            text-align: center
+            margin-top: 0
+
+            +mobile
+                font-size: 25px
 
         .intro-lead
             +span-columns(5)
@@ -68,15 +87,38 @@
 
     #location
         background-color: #9b4fc4
+<<<<<<< HEAD
         background-image: url('/run-and-roll/assets/img/pattern.png')
+=======
+        background-image: url('../img/pattern.png')
+>>>>>>> master
         background-repeat: repeat
         padding: 45px
         text-align: center
+
+        +mobile
+            padding: 45px 15px
+
+        h5
+            color: #fff
+            font-family: $body
+            text-transform: uppercase
+            margin: 0 0 20px 0
+
+            +mobile
+                font-size: 18px
 
         p
             color: #fff
             font-weight: 800
             margin-bottom: 0
+
+            a
+                color: #fff
+                text-decoration: none
+
+            &:hover
+                text-decoration: underline
 
         span
             font-weight: 400
@@ -87,15 +129,14 @@
             margin-top: 0
 
             +mobile
-                font-size: 2.5rem
+                font-size: 30px
 
     #map_canvas
-        height: 400px
+        height: 300px
         width: 100%
-        +clearfix
 
     #map_canvas img
-        max-width: none
+        max-width: none;
         // to prevent UI control bug
 
     #map_canvas .content
@@ -116,13 +157,16 @@
         +clearfix
         text-align: center
 
+        +mobile
+            padding: 45px 15px
+
         h1
             text-align: center
             color: $brand-dark
             margin-top: 0
 
             +mobile
-                font-size: 3.5rem
+                font-size: 30px
 
         .grid-item
             +span-columns(6)
@@ -139,15 +183,42 @@
         h2
             color: $brand-dark
 
+            +mobile
+                font-size: 25px
+
     #places
         padding: 45px
         background-color: $brand-dark
+<<<<<<< HEAD
         background-image: url('/run-and-roll/assets/img/pattern.png')
+=======
+        background-image: url('../img/pattern.png')
+>>>>>>> master
         background-repeat: repeat
         text-align: center
+        +clearfix
+
+        +mobile
+            padding: 45px 15px
+
+        .col-width
+            +span-columns(8)
+            +shift(2)
+
+            +mobile
+                +span-columns(12)
+                +shift(0)
+
+        h2
+            color: #fff
+            margin: 0 0 20px 0
+
+            +mobile
+                font-size: 25px
 
         p
             color: #fff
+
 
             &:last-child
                 margin-bottom: 0
@@ -156,38 +227,92 @@
             color: #fff
             margin-top: 0
 
+            +mobile
+                font-size: 30px
+        p.terms
+            margin: 20px 0 10px 0
+
+            a
+                color: #fff
+
+            &:hover
+                color: lighten(#fff, 20%)
+
     #footer
         padding: 45px
         background-color: #222222
+<<<<<<< HEAD
         background-image: url('/run-and-roll/assets/img/pattern.png')
+=======
+        background-image: url('../img/pattern.png')
+>>>>>>> master
         background-repeat: repeat
         text-align: center
         +clearfix
 
-        h3
+        +mobile
+            padding: 45px 15px
+
+        h2
             color: #eee
             margin-top: 0
 
+            +mobile
+                font-size: 25px
+
         .runology
             +span-columns(6)
+<<<<<<< HEAD
             +hide-text
             background: center no-repeat
             height: 75px
             background-image: url('/run-and-roll/assets/img/runology.svg')
             background-size: 498px 75px
             margin-bottom: 30px
+=======
+
+            img
+                height: 75px
+>>>>>>> master
 
             +mobile
                 +span-columns(12)
+                margin-bottom: 20px
 
+                img
+                    height: 50px
 
         .rackham
             +span-columns(6)
+<<<<<<< HEAD
             +hide-text
             background: center no-repeat
             height: 75px
             background-image: url('/run-and-roll/assets/img/rackhameffect.svg')
             background-size: 498px 75px
+=======
+
+            img
+                height: 75px
+>>>>>>> master
 
             +mobile
                 +span-columns(12)
+
+                img
+                    height: 50px
+
+    #trans
+        display: block
+        color: darken(#ffffff, 20%)
+
+        p
+            color: $brand-primary
+            margin: 20px 0 0 0
+
+        a
+            color: $brand-primary
+            text-decoration: none
+
+            &:hover
+                color: $brand-dark

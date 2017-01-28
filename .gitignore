@@ -1,6 +1,10 @@
 # Created by https://www.gitignore.io/api/macos,jekyll,sass,wordpress
 
+<<<<<<< HEAD
 Image-Originals/
+=======
+_image-originals/
+>>>>>>> master
 
 ### macOS ###
 *.DS_Store
@@ -28,7 +32,6 @@ Temporary Items
 
 
 ### Jekyll ###
-_site/
 .sass-cache/
 .jekyll-metadata
 

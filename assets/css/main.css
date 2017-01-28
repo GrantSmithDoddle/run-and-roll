@@ -10,7 +10,11 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   background-color: #009FE3;
+<<<<<<< HEAD
   background-image: url("/run-and-roll/assets/img/pattern.png");
+=======
+  background-image: url("../img/pattern.png");
+>>>>>>> master
   background-repeat: repeat;
   color: #00587d; }
 
@@ -330,12 +334,19 @@ hr {
     background: white;
     padding: 30px; }
   .wrapper #head {
+<<<<<<< HEAD
     background-image: url("/run-and-roll/assets/img/runner.jpg");
+=======
+    background-image: url("../img/runner.jpg");
+>>>>>>> master
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     height: 400px;
     padding: 45px; }
+    @media screen and (max-width: 767px) {
+      .wrapper #head {
+        padding: 45px 15px; } }
     .wrapper #head .title {
       text-align: center;
       margin: 8% 0; }
@@ -343,6 +354,7 @@ hr {
         color: #fff; }
         @media screen and (max-width: 767px) {
           .wrapper #head .title h1 {
+            font-size: 30px;
             margin: 0 0 15px 0; } }
     .wrapper #head .sub-title {
       text-align: center;
@@ -355,6 +367,16 @@ hr {
       clear: both;
       content: "";
       display: block; }
+    @media screen and (max-width: 767px) {
+      .wrapper #intro {
+        padding: 45px 15px; } }
+    .wrapper #intro h2 {
+      color: #00587d;
+      text-align: center;
+      margin-top: 0; }
+      @media screen and (max-width: 767px) {
+        .wrapper #intro h2 {
+          font-size: 25px; } }
     .wrapper #intro .intro-lead {
       float: left;
       display: block;
@@ -405,14 +427,34 @@ hr {
             margin-right: 0; } }
   .wrapper #location {
     background-color: #9b4fc4;
+<<<<<<< HEAD
     background-image: url("/run-and-roll/assets/img/pattern.png");
+=======
+    background-image: url("../img/pattern.png");
+>>>>>>> master
     background-repeat: repeat;
     padding: 45px;
     text-align: center; }
+    @media screen and (max-width: 767px) {
+      .wrapper #location {
+        padding: 45px 15px; } }
+    .wrapper #location h5 {
+      color: #fff;
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase;
+      margin: 0 0 20px 0; }
+      @media screen and (max-width: 767px) {
+        .wrapper #location h5 {
+          font-size: 18px; } }
     .wrapper #location p {
       color: #fff;
       font-weight: 800;
       margin-bottom: 0; }
+      .wrapper #location p a {
+        color: #fff;
+        text-decoration: none; }
+      .wrapper #location p:hover {
+        text-decoration: underline; }
     .wrapper #location span {
       font-weight: 400; }
     .wrapper #location h1 {
@@ -421,14 +463,10 @@ hr {
       margin-top: 0; }
       @media screen and (max-width: 767px) {
         .wrapper #location h1 {
-          font-size: 2.5rem; } }
+          font-size: 30px; } }
   .wrapper #map_canvas {
-    height: 400px;
+    height: 300px;
     width: 100%; }
-    .wrapper #map_canvas::after {
-      clear: both;
-      content: "";
-      display: block; }
   .wrapper #map_canvas img {
     max-width: none; }
   .wrapper #map_canvas .content {
@@ -448,13 +486,16 @@ hr {
       clear: both;
       content: "";
       display: block; }
+    @media screen and (max-width: 767px) {
+      .wrapper #coaches {
+        padding: 45px 15px; } }
     .wrapper #coaches h1 {
       text-align: center;
       color: #00587d;
       margin-top: 0; }
       @media screen and (max-width: 767px) {
         .wrapper #coaches h1 {
-          font-size: 3.5rem; } }
+          font-size: 30px; } }
     .wrapper #coaches .grid-item {
       float: left;
       display: block;
@@ -476,12 +517,49 @@ hr {
       border-radius: 50%; }
     .wrapper #coaches h2 {
       color: #00587d; }
+      @media screen and (max-width: 767px) {
+        .wrapper #coaches h2 {
+          font-size: 25px; } }
   .wrapper #places {
     padding: 45px;
     background-color: #00587d;
+<<<<<<< HEAD
     background-image: url("/run-and-roll/assets/img/pattern.png");
+=======
+    background-image: url("../img/pattern.png");
+>>>>>>> master
     background-repeat: repeat;
     text-align: center; }
+    .wrapper #places::after {
+      clear: both;
+      content: "";
+      display: block; }
+    @media screen and (max-width: 767px) {
+      .wrapper #places {
+        padding: 45px 15px; } }
+    .wrapper #places .col-width {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin-left: 17.05961%; }
+      .wrapper #places .col-width:last-child {
+        margin-right: 0; }
+      @media screen and (max-width: 767px) {
+        .wrapper #places .col-width {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          margin-left: 0%; }
+          .wrapper #places .col-width:last-child {
+            margin-right: 0; } }
+    .wrapper #places h2 {
+      color: #fff;
+      margin: 0 0 20px 0; }
+      @media screen and (max-width: 767px) {
+        .wrapper #places h2 {
+          font-size: 25px; } }
     .wrapper #places p {
       color: #fff; }
       .wrapper #places p:last-child {
@@ -489,23 +567,43 @@ hr {
     .wrapper #places h1 {
       color: #fff;
       margin-top: 0; }
+      @media screen and (max-width: 767px) {
+        .wrapper #places h1 {
+          font-size: 30px; } }
+    .wrapper #places p.terms {
+      margin: 20px 0 10px 0; }
+      .wrapper #places p.terms a {
+        color: #fff; }
+      .wrapper #places p.terms:hover {
+        color: white; }
   .wrapper #footer {
     padding: 45px;
     background-color: #222222;
+<<<<<<< HEAD
     background-image: url("/run-and-roll/assets/img/pattern.png");
+=======
+    background-image: url("../img/pattern.png");
+>>>>>>> master
     background-repeat: repeat;
     text-align: center; }
     .wrapper #footer::after {
       clear: both;
       content: "";
       display: block; }
-    .wrapper #footer h3 {
+    @media screen and (max-width: 767px) {
+      .wrapper #footer {
+        padding: 45px 15px; } }
+    .wrapper #footer h2 {
       color: #eee;
       margin-top: 0; }
+      @media screen and (max-width: 767px) {
+        .wrapper #footer h2 {
+          font-size: 25px; } }
     .wrapper #footer .runology {
       float: left;
       display: block;
       margin-right: 2.35765%;
+<<<<<<< HEAD
       width: 48.82117%;
       overflow: hidden;
       text-indent: 101%;
@@ -515,20 +613,29 @@ hr {
       background-image: url("/run-and-roll/assets/img/runology.svg");
       background-size: 498px 75px;
       margin-bottom: 30px; }
+=======
+      width: 48.82117%; }
+>>>>>>> master
       .wrapper #footer .runology:last-child {
         margin-right: 0; }
+      .wrapper #footer .runology img {
+        height: 75px; }
       @media screen and (max-width: 767px) {
         .wrapper #footer .runology {
           float: left;
           display: block;
           margin-right: 2.35765%;
-          width: 100%; }
+          width: 100%;
+          margin-bottom: 20px; }
           .wrapper #footer .runology:last-child {
-            margin-right: 0; } }
+            margin-right: 0; }
+          .wrapper #footer .runology img {
+            height: 50px; } }
     .wrapper #footer .rackham {
       float: left;
       display: block;
       margin-right: 2.35765%;
+<<<<<<< HEAD
       width: 48.82117%;
       overflow: hidden;
       text-indent: 101%;
@@ -537,8 +644,13 @@ hr {
       height: 75px;
       background-image: url("/run-and-roll/assets/img/rackhameffect.svg");
       background-size: 498px 75px; }
+=======
+      width: 48.82117%; }
+>>>>>>> master
       .wrapper #footer .rackham:last-child {
         margin-right: 0; }
+      .wrapper #footer .rackham img {
+        height: 75px; }
       @media screen and (max-width: 767px) {
         .wrapper #footer .rackham {
           float: left;
@@ -546,4 +658,17 @@ hr {
           margin-right: 2.35765%;
           width: 100%; }
           .wrapper #footer .rackham:last-child {
-            margin-right: 0; } }
+            margin-right: 0; }
+          .wrapper #footer .rackham img {
+            height: 50px; } }
+  .wrapper #trans {
+    display: block;
+    color: #cccccc; }
+    .wrapper #trans p {
+      color: #009FE3;
+      margin: 20px 0 0 0; }
+    .wrapper #trans a {
+      color: #009FE3;
+      text-decoration: none; }
+      .wrapper #trans a:hover {
+        color: #00587d; }
