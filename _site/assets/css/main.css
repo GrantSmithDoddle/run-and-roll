@@ -378,53 +378,39 @@ hr {
         .wrapper #intro h2 {
           font-size: 25px; } }
     .wrapper #intro .intro-lead {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 40.29137%;
-      margin-left: 8.5298%;
       font-family: "Open Sans", sans-serif;
       color: #00587d;
       font-size: 1.75rem;
       font-weight: 800;
-      text-align: right;
-      text-transform: uppercase; }
-      .wrapper #intro .intro-lead:last-child {
-        margin-right: 0; }
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 0.75em; }
       @media screen and (max-width: 767px) {
         .wrapper #intro .intro-lead {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 100%;
-          margin-left: 0%;
-          text-align: center;
           font-size: 1.25rem;
-          margin-bottom: 15px; }
-          .wrapper #intro .intro-lead:last-child {
-            margin-right: 0; } }
+          margin-bottom: 15px; } }
     .wrapper #intro .intro-list {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 40.29137%;
       font-family: "Open Sans", sans-serif;
       color: #00587d;
       font-size: 1.25rem; }
-      .wrapper #intro .intro-list:last-child {
-        margin-right: 0; }
       .wrapper #intro .intro-list ol {
         margin: 5px 0; }
+        @media screen and (max-width: 767px) {
+          .wrapper #intro .intro-list ol {
+            font-size: 1.25rem;
+            margin: 0; } }
+    .wrapper #intro .left {
+      width: 50%;
+      float: left; }
       @media screen and (max-width: 767px) {
-        .wrapper #intro .intro-list {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 100%;
-          margin-left: 0%;
-          font-size: 1.25rem; }
-          .wrapper #intro .intro-list:last-child {
-            margin-right: 0; } }
+        .wrapper #intro .left {
+          width: 100%; } }
+    .wrapper #intro .right {
+      width: 50%;
+      float: right; }
+      @media screen and (max-width: 767px) {
+        .wrapper #intro .right {
+          width: 100%; } }
   .wrapper #location {
     background-color: #9b4fc4;
 <<<<<<< HEAD

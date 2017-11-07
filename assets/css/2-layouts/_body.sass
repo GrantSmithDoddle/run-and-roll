@@ -51,35 +51,43 @@
                 font-size: 25px
 
         .intro-lead
-            +span-columns(5)
-            +shift(1)
             font-family: $body
             color: $brand-dark
             font-size: 1.75rem
             font-weight: 800
-            text-align: right
+            text-align: center
             text-transform: uppercase
+            margin-bottom: 0.75em
 
             +mobile
-                +span-columns(12)
-                +shift(0)
-                text-align: center
                 font-size: 1.25rem
                 margin-bottom: 15px
 
         .intro-list
-            +span-columns(5)
-            font-family: $body
-            color: $brand-dark
-            font-size: 1.25rem
+          font-family: $body
+          color: $brand-dark
+          font-size: 1.25rem
 
-            ol
-                margin: 5px 0
+          ol
+            margin: 5px 0
 
             +mobile
-                +span-columns(12)
-                +shift(0)
-                font-size: 1.25rem
+              font-size: 1.25rem
+              margin: 0
+
+        .left
+          width: 50%
+          float: left
+
+          +mobile
+            width: 100%
+
+        .right
+          width: 50%
+          float: right
+
+          +mobile
+            width: 100%
 
     #location
         background-color: #9b4fc4
