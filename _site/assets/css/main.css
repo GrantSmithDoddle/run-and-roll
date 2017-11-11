@@ -10,11 +10,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   background-color: #009FE3;
-<<<<<<< HEAD
-  background-image: url("/run-and-roll/assets/img/pattern.png");
-=======
   background-image: url("../img/pattern.png");
->>>>>>> master
   background-repeat: repeat;
   color: #00587d; }
 
@@ -334,11 +330,7 @@ hr {
     background: white;
     padding: 30px; }
   .wrapper #head {
-<<<<<<< HEAD
-    background-image: url("/run-and-roll/assets/img/runner.jpg");
-=======
     background-image: url("../img/runner.jpg");
->>>>>>> master
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -413,11 +405,7 @@ hr {
           width: 100%; } }
   .wrapper #location {
     background-color: #9b4fc4;
-<<<<<<< HEAD
-    background-image: url("/run-and-roll/assets/img/pattern.png");
-=======
     background-image: url("../img/pattern.png");
->>>>>>> master
     background-repeat: repeat;
     padding: 45px;
     text-align: center; }
@@ -509,11 +497,7 @@ hr {
   .wrapper #places {
     padding: 45px;
     background-color: #00587d;
-<<<<<<< HEAD
-    background-image: url("/run-and-roll/assets/img/pattern.png");
-=======
     background-image: url("../img/pattern.png");
->>>>>>> master
     background-repeat: repeat;
     text-align: center; }
     .wrapper #places::after {
@@ -565,11 +549,7 @@ hr {
   .wrapper #footer {
     padding: 45px;
     background-color: #222222;
-<<<<<<< HEAD
-    background-image: url("/run-and-roll/assets/img/pattern.png");
-=======
     background-image: url("../img/pattern.png");
->>>>>>> master
     background-repeat: repeat;
     text-align: center; }
     .wrapper #footer::after {
@@ -589,28 +569,15 @@ hr {
       float: left;
       display: block;
       margin-right: 2.35765%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> gh-pages
       width: 48.82117%;
       overflow: hidden;
       text-indent: 101%;
       white-space: nowrap;
       background: center no-repeat;
       height: 75px;
-<<<<<<< HEAD
-      background-image: url("/run-and-roll/assets/img/runology.svg");
-      background-size: 498px 75px;
-      margin-bottom: 30px; }
-=======
-      width: 48.82117%; }
->>>>>>> master
-=======
       background-image: url("../img/runology.svg");
       background-size: 498px 75px;
       margin-bottom: 30px; }
->>>>>>> gh-pages
       .wrapper #footer .runology:last-child {
         margin-right: 0; }
       .wrapper #footer .runology img {
@@ -630,26 +597,14 @@ hr {
       float: left;
       display: block;
       margin-right: 2.35765%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> gh-pages
       width: 48.82117%;
       overflow: hidden;
       text-indent: 101%;
       white-space: nowrap;
       background: center no-repeat;
       height: 75px;
-<<<<<<< HEAD
-      background-image: url("/run-and-roll/assets/img/rackhameffect.svg");
-      background-size: 498px 75px; }
-=======
-      width: 48.82117%; }
->>>>>>> master
-=======
       background-image: url("../img/rackhameffect.svg");
       background-size: 498px 75px; }
->>>>>>> gh-pages
       .wrapper #footer .rackham:last-child {
         margin-right: 0; }
       .wrapper #footer .rackham img {
